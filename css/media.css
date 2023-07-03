@@ -1,30 +1,124 @@
-@media (max-width: 1200px) {
-    .fotoebi {
+/* @media(max-width: 1187px){
+    form{
         flex-direction: column;
-        width: 50%;
+    }
+    #description{
+        min-width: 370px;
+        width: 30%;
         margin: 0 auto;
     }
-    .fotoebi > img{
-        margin-bottom: 40px;
-    }
-    .s-2 .container > h3{
-        font-size: 20px;
-    }
-    .s-2 .container > h2{
-        margin-bottom: 30px;
+} */
+@media(max-width: 1187px){
+    #description{
+        min-width: 370px;
+        width: 60%;
+        margin: 0 auto;
     }
 }
-@media (max-width: 793px){
-   form{
-    flex-direction: column;
-   }
-   textarea{
-    width: 370px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-   }
-   .contact{
-    display: flex;
-    align-items: center;
-   }
+@media(max-width: 900px){
+    form{
+        flex-direction: column;
+    }
+    #description{
+        min-width: 370px;
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+@media(min-width: 1187px)
+{ 
+    #description
+    min-width: 370px;
+}
+@media(min-width: 1187px){
+    .container2 .contact{
+       margin: 0 auto;
+    }
+}
+@media(max-width: 1200px){
+    .s-1 h4, .s-1 h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    .s-1 h4{
+        color: rgb(31, 5, 122);
+    }
+    .s-1 h3{
+        color: rgb(63, 61, 65);
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .s-2 h2, .s-2 h3{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(31, 5, 122);
+    }
+    .s-2 h2{
+        color: rgb(63, 61, 65);
+        font-size: 40px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 1020px){
+    .kontaqti > .info{
+       margin-right: 80px; 
+    }
+    .kontaqti > .inf1{
+        margin-right: 100px;
+    }
+}
+@media(max-width: 940px){
+    .kontaqti > .info{
+       margin-right: 80px; 
+    }
+    .kontaqti > .inf3{
+        flex-direction: flex-start;
+        align-items: flex-start;
+    }
+}
+@media(max-width: 1025px){
+    .kontaqti{
+        flex-wrap: wrap;
+    }
+    .kontaqti{
+        height: auto;
+        justify-content: center;
+    }
+}
+@media(max-width: 745px){
+    .fotoebi > img{
+        margin-bottom: 50px;
+        border-radius: 30px;
+    }
+}
+@media(max-width: 833px){
+    .kontaqti > .inf2{
+        margin-right: 140px;
+    }
+}
+@media(max-width: 585px){
+    .contacts{
+        /* flex-direction: column; */
+        width: 99%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 725px){
+    .kontaqti{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info{
+        margin-left: 2px;
+    }
+}
+@media(max-width: 400px){
+    .contacts{
+        display: none;
+    }
+    .s-1{
+        height: 950px;
+    }
 }
